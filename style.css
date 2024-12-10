@@ -93,7 +93,7 @@ span {
 
 .template-btn {
     background-color: #ff926b;
-    color: white;
+    color: #ddd;
     border: none;
     border-radius: 25px;
     padding: 12px 16px;
@@ -113,7 +113,7 @@ span {
     text-align: center;
     padding: 10% 20%;
     background-color: #ff926b;
-    color: #fff;
+    color: #ddd;
     justify-content: center;
     padding-bottom: 25%;
 }
@@ -194,7 +194,7 @@ span {
 
 .fake-btn {
     background-color: black;
-    color: white;
+    color: #ddd;
     padding: 12px 20px;
     border-radius: 25px;
     font-size: 0.9em;
@@ -268,7 +268,7 @@ span {
     right: 0px; 
     padding: 12px 20px;
     background-color: #000000;
-    color: #fff;
+    color: #ddd;
     border: none;
     cursor: pointer;
 }
@@ -414,6 +414,82 @@ span {
 .note p{
     font-size: 1em;
     margin: 0;
+}
+
+/*call to action*/
+.actions {
+    background-color: #000;
+    position: relative;
+    margin: 0 10%;
+    color: #ddd;
+    text-align: center;
+    padding: 8%;
+}
+
+.actions h2 {
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 8%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+    color: #ddd;
+}
+
+.image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.image h3 {
+    font-size: 1em;
+    padding: 10px 0;
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.image p {
+    font-size: 0.9em;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.try-it-btn {
+    background-color: #ff926b;
+    border-style: none;
+    border-radius: 6px;
+    color: #ddd;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.learn-more {
+    background-color: #ededed;
+    margin: -15% auto 0;
+    padding: 10%;
+    text-align: center;
+}
+
+.learn-more h3{
+    padding: 10% 0;
 }
 
 
