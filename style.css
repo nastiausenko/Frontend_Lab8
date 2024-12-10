@@ -149,53 +149,148 @@ span {
     transition: background-color 0.3s;
 }
 
+#info {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 .container {
     position: relative;
     width: 80%;
     margin: -15% auto 0;
-    background-color: #fff;
-    padding: 20px;
+    background-color: #F8F8F8;
+    padding: 10px 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    align-items: center;
+}
+
+.header-text {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    border-bottom: #bababa31 solid 2px;
+}
+
+.alpha {
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+}
+
+.navbar-text {
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+    color: #000000;
+    position: relative;
+    align-items: center;
+    gap: 20px;
+    font-size: 1em;
+}
+
+.fake-btn {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 0.9em;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+     /* Відстань між блоками */
+    padding: 60px;
+    max-width: 100%;
 }
 
 .info-bg {
+    display: block;
     width: 100%;
+    margin: -230px auto 0;
+}
+
+.quote-section {
+    position: relative;
+    z-index: 1;
+    width: 40%;
 }
 
 .quote {
-    font-size: 1.5em;
-    font-style: italic;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .author {
+    display: flex;
+    align-items: center;
     margin-top: 10px;
     font-size: 1em;
-    color: #555;
+    color: #919191;
+    gap: 10px;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
 }
 
 .overlay-box {
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
     padding: 20px;
-    border-radius: 5px;
-    text-align: center;
+    height: 250px;
+    max-width: 250px; 
+    text-align: left;
+}
+
+.overlay-box h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.overlay-box p {
+    margin: 30px 0;
+    font-weight: 500;
 }
 
 .overlay-box button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #ff9478;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; 
+    padding: 12px 20px;
+    background-color: #000000;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
 .overlay-box button:hover {
-    background-color: #ff926b;
+    background-color: #000000d8;
+    transition: background-color 0.3s;
+}
+
+
+.share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+    color: #919191;
+}
+
+.share img {
+    width: 25px;
+    border-radius: 50%;
 }
