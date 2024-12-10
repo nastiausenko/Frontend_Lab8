@@ -203,9 +203,7 @@ span {
 .content {
     position: relative;
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
-     /* Відстань між блоками */
     padding: 60px;
     max-width: 100%;
 }
@@ -559,4 +557,45 @@ span {
 
 .card-input:checked + .learn-container .learn-more-link {
     display: inline-block;
+}
+
+.comments {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 15%;
+    gap: 10%;
+}
+
+.img-container {
+    flex: 1;
+    height: 100%;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.comment-container {
+    position: relative;
+    flex: 1;
+}
+
+.comment {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.comment-container .author {
+    font-style: italic;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.position {
+    margin: 0;
+    color: #919191;
 }
